@@ -6,11 +6,11 @@ header {
     & .navbar{
         background-color: lightgray  !important;
         & & .nav-item a {
-            font-family: sans-serif !important;
+            font-family: $fontPrincipal !important;
             color: black !important;
         }
         & .nav-item a:hover{
-            color: rgb(255, 123, 0) !important;
+            color: $colorPrimario !important;
         } 
     } 
     
